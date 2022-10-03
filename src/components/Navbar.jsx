@@ -4,9 +4,16 @@ import { Link } from "react-router-dom";
 export class Navbar extends Component {
   render() {
     return (
-      <nav className="navbar fixed-top navbar-expand-lg bg-dark navbar-dark">
+      <nav
+        className="navbar fixed-top navbar-expand-lg"
+        style={{ backgroundColor: "#76323F" }}
+      >
         <div className="container-fluid">
-          <Link className="navbar-brand" to="/" style={{ fontWeight: "bold" }}>
+          <Link
+            className="navbar-brand"
+            to="/"
+            style={{ fontWeight: "bold", color: "white" }}
+          >
             BUZZ..
           </Link>
           <button
@@ -23,12 +30,22 @@ export class Navbar extends Component {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link className="nav-link" aria-current="page" to="/">
+                <Link
+                  className="nav-link"
+                  aria-current="page"
+                  to="/"
+                  style={{ color: "white" }}
+                >
                   Home
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" aria-current="page" to="/business">
+                <Link
+                  className="nav-link"
+                  aria-current="page"
+                  to="/business"
+                  style={{ color: "white" }}
+                >
                   Business
                 </Link>
               </li>
@@ -37,27 +54,48 @@ export class Navbar extends Component {
                   className="nav-link"
                   aria-current="page"
                   to="/entertainment"
+                  style={{ color: "white" }}
                 >
                   Entertainment
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" aria-current="page" to="/health">
+                <Link
+                  className="nav-link"
+                  aria-current="page"
+                  to="/health"
+                  style={{ color: "white" }}
+                >
                   Health
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" aria-current="page" to="/science">
+                <Link
+                  className="nav-link"
+                  aria-current="page"
+                  to="/science"
+                  style={{ color: "white" }}
+                >
                   Science
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" aria-current="page" to="/sports">
+                <Link
+                  className="nav-link"
+                  aria-current="page"
+                  to="/sports"
+                  style={{ color: "white" }}
+                >
                   Sports
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" aria-current="page" to="/technology">
+                <Link
+                  className="nav-link"
+                  aria-current="page"
+                  to="/technology"
+                  style={{ color: "white" }}
+                >
                   Technology
                 </Link>
               </li>

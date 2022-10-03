@@ -18,7 +18,7 @@ export default class App extends Component {
   render() {
     return (
       <Router>
-        <div className="app" style={{backgroundColor: "rgb(20,20,20)"}}>
+        <div className="app" style={{backgroundColor: "#D7CEC7"}}>
         <LoadingBar
           height={3}
           color="#f11946"

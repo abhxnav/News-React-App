@@ -9,17 +9,17 @@ export class NewsItem extends Component {
       <a href={newsUrl} target="_blank" style={{ textDecoration: "none" }}>
         <div className="my-3">
           <div className="card">
-            <img src={imageUrl} className="card-img-top" alt="..." />
-            <div className="card-body" style={{backgroundColor: "rgb(40,40,40)"}}>
-              <h5 className="card-title" style={{ color: "black" }}>
+            <img src={imageUrl} className="card-img-top" alt="..." style={{height: "250px", backgroundColor: "#565656"}}/>
+            <div className="card-body" style={{ backgroundColor: "#565656" }}>
+              <h5 className="card-title" style={{ color: "white" }}>
                 {title} ....
               </h5>
-              <p className="card-text" style={{ color: "rgb(50,50,50)" }}>
+              <p className="card-text" style={{ color: "#D7CEC7" }}>
                 {description} ....
               </p>
               {date && (
                 <p className="card-text">
-                  <small className="text-muted">
+                  <small style={{color: "#D7CEC7"}}>
                     {new Date(date).toGMTString()}
                   </small>
                 </p>
