@@ -5,7 +5,7 @@ export class Spinner extends Component {
     return (
       <div
         className="spinner-grow" 
-        style={{width: "2rem", height: "2rem"}}
+        style={{width: "2rem", height: "2rem", color: "coral"}}
         role="status"
       >
         <span className="visually-hidden">Loading...</span>

@@ -70,13 +70,13 @@ export class News extends Component {
   render() {
     return (
       <>
-        <div style={{ backgroundColor: "#D7CEC7", height: "80px" }}></div>
+        <div style={{ backgroundColor: "rgb(50,50,50)", height: "80px" }}></div>
         {this.props.category === "general" ? (
-          <h2 className="text-center" style={{ color: "#404040" }}>
+          <h2 className="text-center" style={{ color: "white" }}>
             Top Headlines
           </h2>
         ) : (
-          <h2 className="text-center" style={{ color: "#404040" }}>
+          <h2 className="text-center" style={{ color: "white" }}>
             Top Headlines from the World of{" "}
             {this.capitalize(this.props.category)}
           </h2>
@@ -130,7 +130,7 @@ export class News extends Component {
 export default News;
 
 /*
-UNSED CODE
+UNUSED CODE
 
 * Prev and Next Buttons - 
 {!this.state.loading && (

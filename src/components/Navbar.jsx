@@ -6,13 +6,13 @@ export class Navbar extends Component {
     return (
       <nav
         className="navbar fixed-top navbar-expand-lg"
-        style={{ backgroundColor: "#76323F" }}
+        style={{ backgroundColor: "rgb(50,50,50)" }}
       >
         <div className="container-fluid">
           <Link
             className="navbar-brand"
             to="/"
-            style={{ fontWeight: "bold", color: "white" }}
+            style={{ fontWeight: "bold", color: "coral" }}
           >
             BUZZ..
           </Link>

@@ -18,12 +18,12 @@ export default class App extends Component {
   render() {
     return (
       <Router>
-        <div className="app" style={{backgroundColor: "#D7CEC7"}}>
+        <div className="app" style={{backgroundColor: "rgb(50,50,50)"}}>
         <LoadingBar
           height={3}
           color="#f11946"
           progress={this.state.progress}
-          style={{ backgroundColor: "black" }}
+          style={{ backgroundColor: "coral" }}
         />
         <Navbar />
           <Routes>
@@ -41,7 +41,6 @@ export default class App extends Component {
                 />
               }
             />
-
             <Route
               exact
               path="/business"
