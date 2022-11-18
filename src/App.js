@@ -1,7 +1,8 @@
-import React, { Component } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Navbar, News } from "./components/components-index";
-import LoadingBar from "react-top-loading-bar";
+import React, { Component } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Navbar, News } from './components/components-index';
+import LoadingBar from 'react-top-loading-bar';
+import './App.css';
 
 export default class App extends Component {
   pageSize = 12;
@@ -18,14 +19,14 @@ export default class App extends Component {
   render() {
     return (
       <Router>
-        <div className="app" style={{backgroundColor: "rgb(50,50,50)"}}>
-        <LoadingBar
-          height={3}
-          color="#f11946"
-          progress={this.state.progress}
-          style={{ backgroundColor: "coral" }}
-        />
-        <Navbar />
+        <div className="app" style={{ backgroundColor: 'rgb(50,50,50)' }}>
+          <LoadingBar
+            height={3}
+            color="#f11946"
+            progress={this.state.progress}
+            style={{ backgroundColor: 'coral' }}
+          />
+          <Navbar />
           <Routes>
             <Route
               exact

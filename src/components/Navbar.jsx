@@ -1,18 +1,18 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 export class Navbar extends Component {
   render() {
     return (
       <nav
         className="navbar fixed-top navbar-expand-lg"
-        style={{ backgroundColor: "rgb(50,50,50)" }}
+        style={{ backgroundColor: 'rgb(50,50,50)' }}
       >
         <div className="container-fluid">
           <Link
             className="navbar-brand"
             to="/"
-            style={{ fontWeight: "bold", color: "coral" }}
+            style={{ fontWeight: 'bold', color: 'coral' }}
           >
             BUZZ..
           </Link>
@@ -34,7 +34,7 @@ export class Navbar extends Component {
                   className="nav-link"
                   aria-current="page"
                   to="/"
-                  style={{ color: "white" }}
+                  style={{ color: 'white' }}
                 >
                   Home
                 </Link>
@@ -44,7 +44,7 @@ export class Navbar extends Component {
                   className="nav-link"
                   aria-current="page"
                   to="/business"
-                  style={{ color: "white" }}
+                  style={{ color: 'white' }}
                 >
                   Business
                 </Link>
@@ -54,7 +54,7 @@ export class Navbar extends Component {
                   className="nav-link"
                   aria-current="page"
                   to="/entertainment"
-                  style={{ color: "white" }}
+                  style={{ color: 'white' }}
                 >
                   Entertainment
                 </Link>
@@ -64,7 +64,7 @@ export class Navbar extends Component {
                   className="nav-link"
                   aria-current="page"
                   to="/health"
-                  style={{ color: "white" }}
+                  style={{ color: 'white' }}
                 >
                   Health
                 </Link>
@@ -74,7 +74,7 @@ export class Navbar extends Component {
                   className="nav-link"
                   aria-current="page"
                   to="/science"
-                  style={{ color: "white" }}
+                  style={{ color: 'white' }}
                 >
                   Science
                 </Link>
@@ -84,7 +84,7 @@ export class Navbar extends Component {
                   className="nav-link"
                   aria-current="page"
                   to="/sports"
-                  style={{ color: "white" }}
+                  style={{ color: 'white' }}
                 >
                   Sports
                 </Link>
@@ -94,7 +94,7 @@ export class Navbar extends Component {
                   className="nav-link"
                   aria-current="page"
                   to="/technology"
-                  style={{ color: "white" }}
+                  style={{ color: 'white' }}
                 >
                   Technology
                 </Link>
